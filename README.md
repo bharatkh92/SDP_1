@@ -37,7 +37,7 @@
 
 ## HTML Style
 * Html Style is used to add styles to an element such as color, font size, font and many more... Example: `<h1 style="font-size:60px;">`.
-* The css background color property, the background color of an html element. Example: `<p style="background-color: red;">`
+* The css background color property, the background color of an html element. Example: `<p style="background-color: black;">`
 * **Fonts**: The css font family property defines, the font to be used for an html element.
 * You can increase the size of text or a paragraph of an html element
 * Html comments are not displayed  on the browser but they can help document your html source code. Example: `<!-- this is a comment -->`
