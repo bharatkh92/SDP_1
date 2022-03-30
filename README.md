@@ -163,12 +163,12 @@
         </body>
     </html>
     ```
-    <html>
-        <body style="background-color: yellow;">
-            <h1>This is a heading</h1>
-            <p>This is a paragraph.</p>
-        </body>
-    </html>
+> <html>
+> <body style="background-color: yellow;">
+>            <h1>This is a heading</h1>
+>            <p>This is a paragraph.</p>
+>       </body>
+>    </html>
 18. Use CSS to center align the document.
     ```html
     <html>
