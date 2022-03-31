@@ -720,5 +720,20 @@ h1 {
 
 ### Multiple classes 
 * Html element can belong more than one classes. To define Multiple classes separate the classes name with a spaces the element will be styled according to all the clasess specified. 
-* Example : `<div class="city name">`
+* Example : ```html <div class="city name">
+    <h1 class="city main">London</h1>
+    <h2 class="city">Paris</h2>
+```
+* The above example the h1 element belong to both the city class and also the main class and will get css style from both of the classes.
 
+### Diffrent elements can share same class.
+* Example : 
+```html
+<div class="city main">
+    <h1 class="city main">London</h1>
+    <p>London is the capital of England.</p>
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+</div>
+```
+* In the above example both h2 and p points to the city class and will share same style.
