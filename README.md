@@ -21,7 +21,7 @@
   Example: `<html lang="en">`.
 * country codes can also be used or added to the language code such as "en-US" or "en-UK".
   Example: `<html lang="en-US">` - so the first two characters define the language of html and the last two character define the country.
-* The value of the title attribute will be displayed as a tool tip when you move over the <p title="element">element.</p>
+* The value of the title attribute will be displayed as a tool tip when you move over the `<p title="element">element.</p>`
 * Double quotes around attribute values are most common in html but single quotes can also be used in some situations where the attribute value itself contains double quotes that is necessary to use single quotes
 ---
 ## Headings
@@ -59,12 +59,15 @@
 4. Specify an alternate text for the image to show alternate text is usefull when the image can't be displayed like when the page is read by a screen reader.
     `<img src="MS Office.png"  alt="Microsoft Office Logo">`
 5. Use the correct HTML tag to add a heading with a text "London".
+
     ```html 
     <h1>London</h1>
     <p>London is the capital city of England. It is the most Populus city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
     ```
+    
 6. Add six headings to the document with the text "Hello".
    Start with the most important heading (the largest) and end with the least important heading (the smallest).
+   
    ```html
    <html>
         <body>
@@ -77,6 +80,7 @@
         </body>
     </html>
     ```
+    
     <html>
         <body>
             <h1>Hello</h1>
@@ -93,17 +97,20 @@
     * "About" is the third most important heading.
     * The last sentence is jusa a paragraph.
     * Start with the most important heading (the largest) and end with the least important heading (the smallest).
+    
     ```html
     <h1>Universal Studio Presents</h1>
     <h2>Jurassic Park</h2>
     <h3>About</h3>  
     <p>On the Island of Isla Nublar, a new park had been built: Jurassic Park is  a theme park of cloned dinosaurs!!</p>
     ```
+    
     <h1>Universal Studio Presents</h1>
     <h2>Jurassic Park</h2>
     <h3>About</h3>  
     <p>On the Island of Isla Nublar, a new park had been built: Jurassic Park is  a theme park of cloned dinosaurs!!</p>
 8. Use the correct HTML tag to add a paragraph with the text "Hello World!".
+
     ```html
     <html>
         <body>
@@ -111,25 +118,33 @@
         </body>
     </html>
     ```
+    
     <p>Hello World!</p>
 9. Clean up this document with proper end tags
+
     ```html
     <h1>This is a Heading</h1>
     <p>This is a paragraph.</p>
     ```
+    
 10. Add a horizontal rule between the heading and the paragraph.
+
     ```html
     <h1>London</h1>
     <hr>
     <p>London is the capital city of England. It is the most populus city in the United Kingdom, with a metropolitan area of over 13 million inhabitanta.</p>
     ```
+    
     <h1>London</h1>
     <hr>
     <p>London is the capital city of England. It is the most populus city in the United Kingdom, with a metropolitan area of over 13 million inhabitanta.</p>
 11. Add a line break in the middle of the paragraph.
+    
     `<p>My Bonnie lies <br> over the ocean.</p>`
+    
     <p>My Bonnie lies <br> over the ocean.</p>
 12. Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed.
+
     ```html
     <pre>
         My Bonnie lies over the ocean.
@@ -137,6 +152,7 @@
         My Bonnie lies over the table.
     </pre>
     ```
+    
     <pre>
         My Bonnie lies over the ocean.
         My Bonnie lies over the sea.
@@ -155,6 +171,7 @@
     `<p style="font-size: 50px;">This is a paragraph.</p>`
     <p style="font-size: 50px;">This is a paragraph.</p>
 17. Use CSS to set the background color of the document to yellow.
+
     ```html
     <html>
         <body style="background-color: yellow;">
@@ -163,6 +180,7 @@
         </body>
     </html>
     ```
+    
 > <html>
 > <body >
 >            <h1>This is a heading</h1>
@@ -170,6 +188,7 @@
 >       </body>
 >    </html>
 18. Use CSS to center align the document.
+
     ```html
     <html>
         <body style="text-align: center;">
@@ -178,6 +197,7 @@
         </body>
     </html>
     ```
+    
     <html>
         <body >
             <h1 align=center>This is a heading </h1>
@@ -185,15 +205,16 @@
         </body>
     </html>
 19. Add extra importance to the word "degradation" in the paragraph below.
-    ```html
-    <p> WWF's mission is to stop the <strong> degradation </strong> of our planet's natural environment.</p>
-    ```
+    
+    `<p> WWF's mission is to stop the <strong> degradation </strong> of our planet's natural environment.</p>`
     WWF's mission is to stop the **degradation** of our planet's natural environment.
 20. Emphasize the word "metropolitan" in the text below.
+
     ```html
     <h1>Tokyo</h1>
     <p>Tokyo is the capital of Japan, the most populous <emp>metropolitan</emp> area in the world.</p>
     ```
+    
 # Tokyo
   Tokyo is the capital of Japan, the most populous _metropolitan_ area in the world.
 
@@ -206,18 +227,21 @@
     `<p>My favorite color is <del>blue</del> red.</p>`
     <p>My favorite color is <del>blue</del> red.</p>
 24. Use the HTML comment tag to make a comment out of the "This is comment" text.
+
     ```html
     <h1>This is a heading</h1>
     <!--This is a comment-->
     <p>This is a paragraph.</p>
     ```
+    
 25. Add comment tags around the paragraph:
     `<!--<p>This is a paragraph.</p>-->`
 ---
 
 ## 1. Write a program to create a html page as shown 
 
-```<html>
+```html
+  <html>
         <head>
             <title>Maths</title>
         </head>
@@ -229,8 +253,9 @@
             <p>4<sup>2</sup> = 16 </p>
             <p>10<sup>2</sup> = 100 </p>
         </body>
-</html>
+  </html>
 ```
+
 <h1>Squares of Numbers</h1>
 <p>1<sup>2</sup> = 1 </p>
 <p>2<sup>2</sup> = 4 </p>
@@ -245,21 +270,22 @@
 * example of tables include financial reports, TV schedule and sports result.
 * Grids allow us to understand complex data by referencing information on two axis
 * Each block in the grid is refered to as a table cell. In html a table is written out by rows.  
-   ```<table>```
+   `<table>`
 * the table tag element is used to create a table. The contents of the table are written out by row.
-    ```<tr>``` 
+    `<tr>`
 * You indicate the start of each row using the opening tag tr(table row).
 * it is followed by one or more td (one for each cell in that row).
-* At the end of the row you use ```</tr>``` tag for closing.
-    ```<td>```
+* At the end of the row you use `</tr>` tag for closing.
+    `<td>`
 * Each cell of a table is represented using a td(table date) tag element.
-* At the end of each cell you should use ```</td>``` for closing 
-    ```<th>```
+* At the end of each cell you should use `</td>` for closing 
+    `<th>`
 * The th(table head) tag element is used just like td tag element but it's purpose is to represent the heading for either a column or a row.
 * Even if a cell has no content you should still use td or th element's to represent the presence of an empty cells otherwise it'll not render correctly 
 * Using th element for heading helps people who use screen readers, improves the abitlity of search engines to index your pages, and also enables you to control the appearence of the table. you can use the scope attribute on the th element to indicate wheather it is a heading for a column or a row. It can take values row to indicate heading for a row, col to indicate a heading for a column.
 
 #### Example
+
 ```html 
 <table>
       <tr>
@@ -279,6 +305,7 @@
      </tr>
 </table>
 ```
+
 <table>
     <tr>
         <td>15</td>
@@ -299,16 +326,16 @@
 
 |no| tag             |            Description
 |-|------------------|----
-|1| ```<table>```    | Defines a table                                                   
-|2| ```<th>```    | Defines a header cell in a table      
-|3| ```<tr>```       | Defines a row in a table                                  
-|4| ```<td>```       | Defines a cell in a table
-|5| ```<caption>```  | Defines a table caption                                           
-|6| ```<colgroup>``` | Specifies a group of one or more columns in a table for formatting
-|7| ```<thead>```    | Groups a header content in a table
-|8|```<col>```   | It is used with ```<colgroup>``` element to specify column properties for each column.
-|9|```<tbody>``` | It is used to group the body content in a table.
-|10| ```<tfooter>``` |   It is used to group the footer content in a table.
+|1| `<table>`    | Defines a table                                                   
+|2| `<th>`    | Defines a header cell in a table      
+|3| `<tr>`       | Defines a row in a table                                  
+|4| `<td>`       | Defines a cell in a table
+|5| `<caption>`  | Defines a table caption                                           
+|6| `<colgroup>` | Specifies a group of one or more columns in a table for formatting
+|7| `<thead>`    | Groups a header content in a table
+|8|`<col>`   | It is used with ```<colgroup>``` element to specify column properties for each column.
+|9|`<tbody>` | It is used to group the body content in a table.
+|10| `<tfooter>` |   It is used to group the footer content in a table.
 
 
 ```
@@ -443,6 +470,7 @@
     </tr>
 </table>
 ```
+
 <table border="2" bgcolor="#a3e4f9">
     <tr>
         <th width="150"></th>
@@ -477,12 +505,18 @@
 ### Inline Css 
 * An inline css is used to apply a unique style to a single html element
 * An inline css used the style attribute of an Html element 
-* Example : ```<h1 style="color: blue;">A Blue heading</h1>
-            <p style="color: red;">This is a Paragraph</p>```
+* Example : 
+
+```html 
+<h1 style="color: blue;">A Blue heading</h1>
+            <p style="color: red;">This is a Paragraph</p>
+```
+
 ### Internal Css
 * Internal Cssis used to design or style a single html pages
 * an Internal Css file is descibed in head part of the html within style element
 * Example : 
+
 ```html
 <html>
     <head>
@@ -543,6 +577,7 @@ h1 {
     background-color: blue;
     }
 ```
+
 ### Css Border
 * The css border property defines a border around an html element.
 * You can define a border for nearly all html elements
