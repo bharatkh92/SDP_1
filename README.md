@@ -21,7 +21,7 @@
 ```
 
 #### What is Html?
-    * Html stands for Hyper Text Markup Language where hyper text is nothing but a link created between web pages. markup language is the text between tags which defines structure. Html is language to create web pages. Html defines how the web page looks and how to display content with help of elements. It forms or defines the structure of the web pages all the files created has to be saved with .html extension.
+* Html stands for Hyper Text Markup Language where hyper text is nothing but a link created between web pages. markup language is the text between tags which defines structure. Html is language to create web pages. Html defines how the web page looks and how to display content with help of elements. It forms or defines the structure of the web pages all the files created has to be saved with .html extension.
 * It is easy to learn and create effective presentation.
 * It also allows the user to add links where we can add references.
 * We can also display documents on platforms like mac, windows, linux etc.
@@ -994,3 +994,153 @@ h1 {
     </body>
     </html>
     ```
+### Iframe
+* An html iframe is used to display a webpage within a webpage.
+#### Syntax
+* In html iframe tag specifies an inline frame is used embed another document within the current html document.
+* `<iframe src="url" title="description"></iframe>`
+* You can set height and width of the frame by specifying the height and width.
+* `<iframe src="url" height="200" width="400" title="description"></iframe>`
+* You can add diffrent style by using style attribute.
+* `<iframe src="url" style="height:200px;width:400;" title="description"></iframe>`
+#### iframe removing the border.
+* You can add or remove the border by adding the style attribute and use the css border property.
+* `<iframe src="url" style="border:none;" title="description"></iframe>`
+#### target for a link.
+* An iframe can be used as a traget for a link. The target attribute of the link referes to name attribute of the frame.
+* Example : 
+```
+<iframe src="demo_iframe.html" name="iframe_a" title="iframe example"></iframe>
+<p><a href="http://www.google.com" target="iframe_a">Google</a></p>
+```
+
+#### Html Javascript
+* The javascript makes the html pages more dynamic and interactive. The html script tag is used to define a client side script(javascript). The script element either contains script statement or a point to an external source through the src attribute.
+#### The head element 
+* The html head element is a container for following elements.
+    ```+ <title>
+    + <style>
+    + <link>
+    + <script>
+    + <meta> and <base>
+    ```
+* meta tag defines  about an html element, meata tags always go inside the head element 
+__
+* meta data will not be displayed on the page. meta date is used by the browser(how to display content or reload page), search engines and other web services.
+* For search engines.
+    `<meta name="keywords" content="HTML, CSS, JavaScript">`
+* Define a description of your web page.
+    `<meta name="description" content="Free Web tutorials  for HTML and CSS">`
+* Refresh document every 30 seconds:
+    `<meta http-equiv="refresh" content="30">`
+#### div tag
+* div tag defines a division or a section in a html document and it is used as a container for html elements, which is then styled with CSS or JavaScript. The div tag is easily styled by using class or id attributes.
+
+#### Span Tag
+* span tag is an inline container used to markup a part of text or a part of document.
+* Example : 
+    ```<p>My mother has <span style="color:blue;">blue</span> eyes.</p>```
+
+#### Css Comments
+* Css comments are used to explain the code, and help when you edit the source code.
+* Example 1: 
+    ```/* This is a single-line comment */```
+* Example 2: 
+    ``p {
+        color: red;     /* set text color to red */
+    }``
+#### Background Colors in Css
+* background color in css is same as that of html but it is initialized in a separate way.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Heading</h2>
+</body>
+</html>
+```
+#### Opacity or Transparency
+* Opacity property specifies the Opacity or Transparency of an element. 
+* It can take value from 0.0 to 1.0 lower the value the more transparent. 
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        p{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Heading</h2>
+</body>
+</html>
+```
+
+#### Background Image 
+* It specifies an image to use background of an element, by default the image is repeated so it covers the entire element.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-image: url("Image1.jpg");
+        }
+    </style>
+</head>
+<body>
+    <h2>My Heading</h2>
+</body>
+</html>
+```
+#### Background Attachment
+* It specifies wheather the background image should scroll or be fixed.
+* Background repeat by default the property repeats an image both horizontally and vertically, but some images should be reapeated only horizontally or vertically else they'll look strange.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-image: url("Image1.jpg");
+            background-repeat: repeat;
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: left;
+            background-position: right;
+            background-position: right top;
+            background-position: top;
+            background-position: bottom;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Heading</h2>
+</body>
+</html>
+```
+#### CSS Background Shorthand
+* To shorten the code it is also possible to specify all the background properties in one single property.
+* Example :
+```body {
+    background-color: red;
+    background-image: url("image1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
