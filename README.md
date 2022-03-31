@@ -548,7 +548,7 @@
                 color: blue;
                 }
             p {
-                color: red;
+                color: brown;
                 }
         </style>
     </head>
@@ -602,3 +602,123 @@ h1 {
     2. **_blank** - opens a document in new window or tab.
     3. **_parent** - opens a document in the parent frame.
     4. **_top** - opens a document in the full body of the window.
+
+# DAY 3
+---
+
+### Relative URL and Absolute URL.
+* A link to a page within the same website is specified with relative URL (without the "http://www.").
+* Absoulute URL uses full web adress in the **href** attribute.
+* Example: 
+
+```html
+<a href="image1.jpg"> <!--Relative URL-->
+<a href="http://www.google.com"> <!--Absolute URL-->
+```
+
+### Use image as a link.
+* To use image as a link just add imag tag inside the a tag.
+* Example:
+
+```html
+<a href="default.asp"><img src="image.jpg" alt="Html tutorial" style="width:42px; height: 42px;"></a>
+<a href="http://www.google.com">
+```
+
+### Button as a link.
+* To use html button as a link you need to add some javascript code.
+* Javascript allows you to specify what happens at cetain events such as click of a button.
+* Example : `<button onclick="document.location='default.asp'"></button>`
+
+
+## Css selector.
+* There are many diffrent types of css selector that allows you to target rules to specific element in an html page or document.
+* Css selector are case sensitive so they must match elements names and attribute values exactly.
+
+### Universal Selector
+* Applies to all the elements in the document.
+* Example : `*{}`
+
+### Type Selector.
+* h1 selector mathces element name' 
+* Example : `h1{},h2{}`
+
+### Class Selector.
+* Matches an element whose class attribute has a value that matches the one specified after a period (.) symbol.
+* Example : `.note{} , p.note{} `
+
+### Id Selector.
+* Matches an element who id attribute has a value that matches the one specified after a hash or pound (#) symbol.
+* Example : `#introduction{}`
+
+### Child Selector.
+* Matches an element that is direct child of another.
+* Example : `li> a{}`
+* Targets any a tag element that are children of a li tag element (but not other a tag element in a page).
+
+### Descendent Selector.
+* Matches an element that is a descendent of another specified element (not just a direct child of that element).
+* Example : `p a {}`
+
+### General Sibling.
+* Matches an element that is a sibling of another, although it doesn't have to be direct preceeding element.
+* Example : `h1-p {}`
+
+### Adjacent Sibling.
+* Matches an element that is a next sibling of another.
+* Example : `h1+p {}`
+
+### Html class attribute 
+* It is used to specify class for an html element. Multiple Html elements can share the same class. The class attribute is often used to point to a class name in a stylesheet. It can also be used by a javascript to access and manipulate elements with a specific class name
+* Example :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    .city {
+        background-color: tomato;
+        color: white;
+    }
+</style>
+</head>
+<body>
+    <div class="city">
+        <h2>London</h2>
+        <p>London is the capital of England.</p>
+    </div>
+    <div class="city">
+        <h2>Paris</h2>
+        <p>Paris is the capital of France.</p>
+    </div>
+</body>
+</html>
+```
+* In the above example we have 2 div tag elements with a class attribute with a value of city all two div elements will be styled equally according to the .city style definition in the head section.
+
+```html
+<<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .note {
+            font-size: 120%;
+            color: red;
+        }
+    </style>
+    <title></title>
+</head>
+<body>
+    <h1>My <span class="note">Important</span> Heading</h1>
+    <p>This is some <span class="note">important</span> text.</p>
+</body>
+</html>
+```
+
+### The Syntax for Class.
+* To create a class write a period (.) symbol, followed by a class name. Then define the css properties within curly braces.
+
+### Multiple classes 
+* Html element can belong more than one classes. To define Multiple classes separate the classes name with a spaces the element will be styled according to all the clasess specified. 
+* Example : `<div class="city name">`
+
