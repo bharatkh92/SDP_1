@@ -1,5 +1,38 @@
 # Skill Devlopment (HTML)
 ---
+
+### Brief History of HTML
+* Once upon a time when there aren't any footprints on a moon some FARSIGHTED folks decided or major computers network together Until 1990 accessing information through the internet was a rather technical affect. It was so hard in fact even the Phd holder were often frustrated when trying to swap data. One such scientist Sir. Tim Burners Knee work on cross-reference of text on the Internet throught hypertext links. By 1993 only hundred computers thorughout the world were equipped with to server these internet pages and several web browser programs had been written to allow people to give webpages.
+* From that point onwards the continued development of web browser and standardisation of the html and xhtml languages has lead us to the world we live in today. One in which more than 120 Million web servers answer request for more than 25 Billion text and Multimedia files.
+* Example
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Title</title>
+</head>
+<body>
+    <h1>First Heading</h1>
+    <p>First Paragraph</p>
+</body>
+</html>
+```
+
+#### What is Html?
+    * Html stands for Hyper Text Markup Language where hyper text is nothing but a link created between web pages. markup language is the text between tags which defines structure. Html is language to create web pages. Html defines how the web page looks and how to display content with help of elements. It forms or defines the structure of the web pages all the files created has to be saved with .html extension.
+* It is easy to learn and create effective presentation.
+* It also allows the user to add links where we can add references.
+* We can also display documents on platforms like mac, windows, linux etc.
+* Adding vido's, graphics and audio's does not attract the viewers 
+* Html is case insensitive language.
+* `<!DOCTYPE html>` Instruction to the browser about the html version(html5).
+* `<html>` Root element which act as a container to hold all the code, browser should know that this is a html document. Committed content one `<head>` tags followed by one `<body>` tag.
+* `<head>` Everything written here will never be displayed in the browser. It contains general info about the document i.e, `<title>` definition of file, Css stylesheet, `<meta>` Information about the document.
+* `<body>` everthing written here will be displayed which contans `<image>`, `<text>`, `<link>` which can achived thorugh tags.
+    * Example : `<p>Hello Everyone</p>`
+                `<img src="download.jpg">`
 * **HTML** uses elements to describe the structure of the page.
 * Tags act like containers they tell you about the information that lies between their opening and closing tags.
 * **Attributes** tell us more about the element and that attributes provides additional information about the contents of an element. They appear on the opnening tag of the elments and are made up off two parts **name** and **value** separated by an '=' sign.  
@@ -839,3 +872,125 @@ h1 {
         <h1 class="myStyle">My Home.</h1>
     </body>
     </html>
+    ```
+11. Add two classes to the heading element to make the background color pink and the text color as red.
+    *
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .class1 {
+                background-color: pink;
+            }
+            .class2 {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="class1 class2">This is Heading.</h1>
+    </body>
+    </html>
+    ```
+
+### Html Lists.
+* Html list allows web developpers to group a set of relative items in list. There are two types **Unordered** and **ordered**. 
+    - Undordered
+        + Apple
+        + Ball
+        + Cat
+        + Dog
+        + Elephant
+    - Ordered
+        1. Apple
+        2. Ball
+        3. Cat
+        4. Dog
+        5. Elephant
+
+* Unordered list starts with ul tag element. Each list item starts with li tag.
+* An ordered list starts with ol tag. Each list item starts with li tag.
+
+12. Add list items with the text Apple, Ball, Cat, Dog, Elephant as unordered list.
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <body>
+        <ul>
+            <li>Apple</li>
+            <li>Ball</li>
+            <li>Cat</li>
+            <li>Dog</li>
+            <li>Elephant</li>
+        </ul>
+        <ol>
+            <li>Apple</li>
+            <li>Ball</li>
+            <li>Cat</li>
+            <li>Dog</li>
+            <li>Elephant</li>
+        </ol>
+    </body>
+    </html>
+    ```
+### Description List
+* Description list is list of terms with the description of each term. The dl tag defines the description list, the dt tag defines the term(name) and the dd tag describes each term.
+* Example : 
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <body>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Coffee is brown in color</dd>
+            <dt>Milk</dt>
+            <dd>Milk is white in color</dd>
+        </dl>
+    </body>
+    </html>
+    ```
+13. Use Css to display squares instead of bullets.
+    ```html
+    <ul style="list-style-type: square;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    ```
+14. Use the correct HTML attribute to display letters (uppercase ABC) instead of numbers.
+    ```html
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    ```
+15. Use the correct HTML elements to make a description of each term in the description list.
+    ```html
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    ```
+### id Attribute
+* specifies a unique id for an html element, the value of the id attribute must be unique within the html document. The id attribute is used to point a specific style declaration in a stylesheet, the syntax for id is hash(#) charcter followed by an id name. Then define the css properties within the curly braces.
+* Example : 
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            #myheader{
+                background-color: lightblue;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="myheader">My Header</h1>
+    </body>
+    </html>
+    ```
