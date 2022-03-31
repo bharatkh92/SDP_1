@@ -3,7 +3,7 @@
 * **HTML** uses elements to describe the structure of the page.
 * Tags act like containers they tell you about the information that lies between their opening and closing tags.
 * **Attributes** tell us more about the element and that attributes provides additional information about the contents of an element. They appear on the opnening tag of the elments and are made up off two parts **name** and **value** separated by an '=' sign.  
-* Example : `<img src="download.jpg" >`
+* Example : ```<img src="download.jpg" >```
 *  The attribute name indicates what kind of extra information your supplying about element content. It should be written in lower case.
 *  The value is the information or settings for the attributes. It should be placed in "double quotes ".
 *  Different attributes can have different values.
@@ -13,34 +13,34 @@
 
 ## HTML tag references
 
-* `<html>` Defines the root of the html document. 
-* `<h1>` to `<h6>` defines Heading.
-* `<a>` : This tag defines a hyperlink the **'href'** attribute specifies the **url** of the page the link goes to. 
-  Example: `<a href="http://www.google.com">Open Google</a>`.
+* ```<html>``` Defines the root of the html document. 
+* ```<h1>``` to ```<h6>``` defines Heading.
+* ```<a>``` : This tag defines a hyperlink the **'href'** attribute specifies the **url** of the page the link goes to. 
+  Example: ```<a href="http://www.google.com">Open Google</a>```.
 * Lang attribute should always include inside html tag to declare language of the html file, this is meant to assist search engines and browsers.
-  Example: `<html lang="en">`.
+  Example: ```<html lang="en">```.
 * country codes can also be used or added to the language code such as "en-US" or "en-UK".
-  Example: `<html lang="en-US">` - so the first two characters define the language of html and the last two character define the country.
-* The value of the title attribute will be displayed as a tool tip when you move over the `<p title="element">element.</p>`
+  Example: ```<html lang="en-US">``` - so the first two characters define the language of html and the last two character define the country.
+* The value of the title attribute will be displayed as a tool tip when you move over the ```<p title="element">element.</p>```
 * Double quotes around attribute values are most common in html but single quotes can also be used in some situations where the attribute value itself contains double quotes that is necessary to use single quotes
 ---
 ## Headings
-* headings vary from `<h1>` to `<h6>`, <`h1>` is most important heading where's `<h6>` defines least important heading.
+* headings vary from ```<h1>``` to ```<h6>```, <```h1>``` is most important heading where's ```<h6>``` defines least important heading.
 * Each Html has a default size, however you can specify the size for any heading with the style attribute, using css font-size property 
 ---
 ## Paragraph
-* A paragraph always starts on a new line and it is usually a block of text, where html paragraph `<p>` element defines a paragraph.
-* A paragraph always starts on a new line and browser automatically adds some white spaces before and after a paragraph. Example: `<p> Hi this is a paragraph </p>`
-* To separate a paragraph html horizontal rule can be applied. The `<hr>` tag defines a thermatic break in a html page and most of it display as a horizontal rule.
+* A paragraph always starts on a new line and it is usually a block of text, where html paragraph ```<p>``` element defines a paragraph.
+* A paragraph always starts on a new line and browser automatically adds some white spaces before and after a paragraph. Example: ```<p> Hi this is a paragraph </p>```
+* To separate a paragraph html horizontal rule can be applied. The ```<hr>``` tag defines a thermatic break in a html page and most of it display as a horizontal rule.
 * It is also used to seprate 
 ---
 
 ## HTML Style
-* Html Style is used to add styles to an element such as color, font size, font and many more... Example: `<h1 style="font-size:60px;">`.
-* The css background color property, the background color of an html element. Example: `<p style="background-color: black;">`
+* Html Style is used to add styles to an element such as color, font size, font and many more... Example: ```<h1 style="font-size:60px;">```.
+* The css background color property, the background color of an html element. Example: ```<p style="background-color: black;">```
 * **Fonts**: The css font family property defines, the font to be used for an html element.
 * You can increase the size of text or a paragraph of an html element
-* Html comments are not displayed  on the browser but they can help document your html source code. Example: `<!-- this is a comment -->`
+* Html comments are not displayed  on the browser but they can help document your html source code. Example: ```<!-- this is a comment -->```
 ---
 
 ## CSS
@@ -50,14 +50,14 @@
 
 # DAY 2 
 ## --- Exercise 1 ---
-1. `<p title="About HTML"> HTML is Hypertext mark up language.</p>`
+1. ```<p title="About HTML"> HTML is Hypertext mark up language.</p>```
 
 2. set the size of the img 250px wide and 400px tall
-    `<img src="downloads.jpg" width="250px" height="400px">`
+    ```<img src="downloads.jpg" width="250px" height="400px">```
 3. make the elements below into a link that goes to www.google.com
-    `<a href="https://www.google.com">This is a link</a>`
+    ```<a href="https://www.google.com">This is a link</a>```
 4. Specify an alternate text for the image to show alternate text is usefull when the image can't be displayed like when the page is read by a screen reader.
-    `<img src="MS Office.png"  alt="Microsoft Office Logo">`
+    ```<img src="MS Office.png"  alt="Microsoft Office Logo">```
 5. Use the correct HTML tag to add a heading with a text "London".
 
     ```html 
@@ -140,7 +140,7 @@
     <p>London is the capital city of England. It is the most populus city in the United Kingdom, with a metropolitan area of over 13 million inhabitanta.</p>
 11. Add a line break in the middle of the paragraph.
     
-    `<p>My Bonnie lies <br> over the ocean.</p>`
+    ```<p>My Bonnie lies <br> over the ocean.</p>```
     
     <p>My Bonnie lies <br> over the ocean.</p>
 12. Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed.
@@ -159,16 +159,16 @@
         My Bonnie lies over the table.
     </pre>
 13. Use the correct HTML attribute, and CSS, to set the color of the paragraph to "blue".
-    `<p style="color: bule;">This is a paragraph.</p>`
+    ```<p style="color: bule;">This is a paragraph.</p>```
     [This is a paragraph.]()
 14. Use CSS to set the font of the paragraph to "courier".
-    `<p style="font-family: courier;">This is a paragraph.</p>`
+    ```<p style="font-family: courier;">This is a paragraph.</p>```
     <p style="font-family: courier;">This is a paragraph.</p>
 15. Use CSS to center align the paragraph.
-    `<p style="text-align: center;">This is paragraph.</p>`
+    ```<p style="text-align: center;">This is paragraph.</p>```
     <p align=center>This is paragraph.</p>
 16. Use CSS to set the text size to 50 pixels.
-    `<p style="font-size: 50px;">This is a paragraph.</p>`
+    ```<p style="font-size: 50px;">This is a paragraph.</p>```
     <p style="font-size: 50px;">This is a paragraph.</p>
 17. Use CSS to set the background color of the document to yellow.
 
@@ -206,7 +206,7 @@
     </html>
 19. Add extra importance to the word "degradation" in the paragraph below.
     
-    `<p> WWF's mission is to stop the <strong> degradation </strong> of our planet's natural environment.</p>`
+    ```<p> WWF's mission is to stop the <strong> degradation </strong> of our planet's natural environment.</p>```
     WWF's mission is to stop the **degradation** of our planet's natural environment.
 20. Emphasize the word "metropolitan" in the text below.
 
@@ -219,12 +219,12 @@
   Tokyo is the capital of Japan, the most populous _metropolitan_ area in the world.
 
 21. Highlight the word "FUN" in the text below.
-    `<p>HTML is <mark>FUN</mark> to learn!</p>`
+    ```<p>HTML is <mark>FUN</mark> to learn!</p>```
 22. Apply subscript formatting to the number "2" in the text below.
-    `<p>H<sub>2</sub>0 is the scientific term for water</p>`
+    ```<p>H<sub>2</sub>0 is the scientific term for water</p>```
     <p>H<sub>2</sub>0 is the scientific term for water</p>
 23. Add a line through  (strikeout) the letters "blue" in the text below.
-    `<p>My favorite color is <del>blue</del> red.</p>`
+    ```<p>My favorite color is <del>blue</del> red.</p>```
     <p>My favorite color is <del>blue</del> red.</p>
 24. Use the HTML comment tag to make a comment out of the "This is comment" text.
 
@@ -235,7 +235,7 @@
     ```
     
 25. Add comment tags around the paragraph:
-    `<!--<p>This is a paragraph.</p>-->`
+    ```<!--<p>This is a paragraph.</p>-->```
 ---
 
 ## 1. Write a program to create a html page as shown 
@@ -270,16 +270,16 @@
 * example of tables include financial reports, TV schedule and sports result.
 * Grids allow us to understand complex data by referencing information on two axis
 * Each block in the grid is refered to as a table cell. In html a table is written out by rows.  
-   `<table>`
+   ```<table>```
 * the table tag element is used to create a table. The contents of the table are written out by row.
-    `<tr>`
+    ```<tr>```
 * You indicate the start of each row using the opening tag tr(table row).
 * it is followed by one or more td (one for each cell in that row).
-* At the end of the row you use `</tr>` tag for closing.
-    `<td>`
+* At the end of the row you use ```</tr>``` tag for closing.
+    ```<td>```
 * Each cell of a table is represented using a td(table date) tag element.
-* At the end of each cell you should use `</td>` for closing 
-    `<th>`
+* At the end of each cell you should use ```</td>``` for closing 
+    ```<th>```
 * The th(table head) tag element is used just like td tag element but it's purpose is to represent the heading for either a column or a row.
 * Even if a cell has no content you should still use td or th element's to represent the presence of an empty cells otherwise it'll not render correctly 
 * Using th element for heading helps people who use screen readers, improves the abitlity of search engines to index your pages, and also enables you to control the appearence of the table. you can use the scope attribute on the th element to indicate wheather it is a heading for a column or a row. It can take values row to indicate heading for a row, col to indicate a heading for a column.
@@ -326,16 +326,16 @@
 
 |no| tag             |            Description
 |-|------------------|----
-|1| `<table>`    | Defines a table                                                   
-|2| `<th>`    | Defines a header cell in a table      
-|3| `<tr>`       | Defines a row in a table                                  
-|4| `<td>`       | Defines a cell in a table
-|5| `<caption>`  | Defines a table caption                                           
-|6| `<colgroup>` | Specifies a group of one or more columns in a table for formatting
-|7| `<thead>`    | Groups a header content in a table
-|8|`<col>`   | It is used with ```<colgroup>``` element to specify column properties for each column.
-|9|`<tbody>` | It is used to group the body content in a table.
-|10| `<tfooter>` |   It is used to group the footer content in a table.
+|1| ```<table>```    | Defines a table                                                   
+|2| ```<th>```    | Defines a header cell in a table      
+|3| ```<tr>```       | Defines a row in a table                                  
+|4| ```<td>```       | Defines a cell in a table
+|5| ```<caption>```  | Defines a table caption                                           
+|6| ```<colgroup>``` | Specifies a group of one or more columns in a table for formatting
+|7| ```<thead>```    | Groups a header content in a table
+|8|```<col>```   | It is used with ```<colgroup>``` element to specify column properties for each column.
+|9|```<tbody>``` | It is used to group the body content in a table.
+|10| ```<tfooter>``` |   It is used to group the footer content in a table.
 
 
 ```
@@ -628,7 +628,7 @@ h1 {
 ### Button as a link.
 * To use html button as a link you need to add some javascript code.
 * Javascript allows you to specify what happens at cetain events such as click of a button.
-* Example : `<button onclick="document.location='default.asp'"></button>`
+* Example : ```<button onclick="document.location='default.asp'"></button>```
 
 
 ## Css selector.
