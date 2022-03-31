@@ -739,3 +739,103 @@ h1 {
 </div>
 ```
 * In the above example both h2 and p points to the city class and will share same style.
+
+# Exercise 2
+1. Use css to set the background color of the document to yellow and also include the heading as 'my homepage'.
+    ```
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Homepage</h1>
+    </body>
+    </html>
+    ```
+2. Use css to set the font of the document to courier.
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            body {
+                font-family: courier;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Homepage</h1>
+    </body>
+    </html>
+    ```
+3. Use css to make a yellow, 1px thick border around all paragraph. and include atleast 3 diffrent paragraph.
+    ```html
+    <<!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            p{ border: 1px solid yellow; }
+        </style>
+    </head>
+    <body>
+        <p>This is paragraph 1</p>
+        <p>This is paragraph 1</p>
+        <p>This is paragraph 1</p>
+    </body>
+    </html> 
+    ```
+4. Use the correct HTML to make the text below into a link to "default.html".
+    *   ```<a href="default.html">Visit our HTML tutorial</a>```
+5. Use css to remove the underline from the link.
+    *   ```<a href="html_images.asp" style="text-decoration:none;">HTML Images</a>```
+6. Use the correct HTML attribute to make the link open in a new window.
+    *   ```<a href="html_images.asp" target="_blank">HTML Images</a>```
+7. Use the correct HTML to make the image become a link to "default.html".
+    *   ```<a href="default.html"> 
+            <img src="smiley.gif">
+        </a>```
+8. Add a tooltip to the link and the tooltip should say "Home".
+    *   ```<a href="default.html" title="home">Back to Home</a>```
+9. In the style section create a class selector named special and add a color property with the value blue inside the special class. Apply this style to a paragraph.
+    *   
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .special {
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="special">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </body>
+    </html>
+    ```
+10. Create a class mystyle with the character properties as color red and add this class to the heading my home.
+    *   
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            .myStyle {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="myStyle">My Home.</h1>
+    </body>
+    </html>
