@@ -172,7 +172,7 @@
     <p style="font-size: 50px;">This is a paragraph.</p>
 17. Use CSS to set the background color of the document to yellow.
 
-    ```html
+    ```
     <html>
         <body style="background-color: yellow;">
             <h1>This is a heading</h1>
@@ -189,7 +189,7 @@
 >    </html>
 18. Use CSS to center align the document.
 
-    ```html
+    ```
     <html>
         <body style="text-align: center;">
             <h1>This is a heading </h1>
@@ -448,7 +448,7 @@
 ## background-color of table and border
 * The border attribute is used on both table and td elements to indicate the width of the border in pixels
 
-```html
+```
 <table border="2" bgcolor="#a3e4f9">
     <tr>
         <th width="150"></th>
@@ -507,7 +507,7 @@
 * An inline css used the style attribute of an Html element 
 * Example : 
 
-```html 
+``` 
 <h1 style="color: blue;">A Blue heading</h1>
             <p style="color: red;">This is a Paragraph</p>
 ```
@@ -517,7 +517,7 @@
 * an Internal Css file is descibed in head part of the html within style element
 * Example : 
 
-```html
+```
 <html>
     <head>
         <style> 
@@ -562,7 +562,7 @@
 * An external style sheet is used to style for many html pages.
 * The external style sheet can be written in any text edittor the file must not contain any html codes and must be saved with .css extension
 * Example : 
-```html
+```
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -620,7 +620,7 @@ h1 {
 * To use image as a link just add imag tag inside the a tag.
 * Example:
 
-```html
+```
 <a href="default.asp"><img src="image.jpg" alt="Html tutorial" style="width:42px; height: 42px;"></a>
 <a href="http://www.google.com">
 ```
@@ -671,7 +671,7 @@ h1 {
 ### Html class attribute 
 * It is used to specify class for an html element. Multiple Html elements can share the same class. The class attribute is often used to point to a class name in a stylesheet. It can also be used by a javascript to access and manipulate elements with a specific class name
 * Example :
-```html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -696,7 +696,7 @@ h1 {
 ```
 * In the above example we have 2 div tag elements with a class attribute with a value of city all two div elements will be styled equally according to the .city style definition in the head section.
 
-```html
+```
 <<!DOCTYPE html>
 <html>
 <head>
@@ -720,7 +720,9 @@ h1 {
 
 ### Multiple classes 
 * Html element can belong more than one classes. To define Multiple classes separate the classes name with a spaces the element will be styled according to all the clasess specified. 
-* Example : ```html <div class="city name">
+* Example : 
+```html 
+<div class="city name">
     <h1 class="city main">London</h1>
     <h2 class="city">Paris</h2>
 ```
