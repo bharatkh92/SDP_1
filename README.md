@@ -1146,6 +1146,8 @@ __
     background-position: right top;
 }
 ```
+# DAY 3
+---
 
 ### CSS Font
 * Css font and thier properties can be defined .
@@ -1368,5 +1370,48 @@ __
         </html>
         ```
     8. Text transform is used to capitalize text or convert text to uppercase or lower case.
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="text-transform: capitalize;">
+                This text will be capitalized.
+            </p>
+            <p style="text-transform: uppercase;">
+                This text will be uppercase.
+            </p>        
+            <p style="text-transform: lowercase;">
+                This text will be lowercase.
+            </p>                
+        </body>
+        </html>
+        ```
     9. Whitespace is used to control the flow and formatting of text.
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="white-space: pre;">
+                This text has a line break and the white-space pre setting 
+                tells the browser to honor it just like the HTML pre tag.
+            </p>
+        </body>
+        </html>
+        ```
     10. Text shadow is used to set text shadow around a text. 
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="text-shadow: 4px 4px 8px blue;">
+                If your browser supports the CSS text-shadow property, this text will have a blue shadow.
+            </p>
+        </body>
+        </html>
+        ```
