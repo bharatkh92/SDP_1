@@ -5,6 +5,7 @@
 * Once upon a time when there aren't any footprints on a moon some FARSIGHTED folks decided or major computers network together Until 1990 accessing information through the internet was a rather technical affect. It was so hard in fact even the Phd holder were often frustrated when trying to swap data. One such scientist Sir. Tim Burners Knee work on cross-reference of text on the Internet throught hypertext links. By 1993 only hundred computers thorughout the world were equipped with to server these internet pages and several web browser programs had been written to allow people to give webpages.
 * From that point onwards the continued development of web browser and standardisation of the html and xhtml languages has lead us to the world we live in today. One in which more than 120 Million web servers answer request for more than 25 Billion text and Multimedia files.
 * Example
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -1144,3 +1145,228 @@ __
     background-repeat: no-repeat;
     background-position: right top;
 }
+```
+
+### CSS Font
+* Css font and thier properties can be defined .
+    1. Font-family is used to change the face of a font.
+        + Example : 
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="font-family:georgia,garamond,serif;">
+                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+            </p>        
+        </body>
+        </html>
+        ```
+
+    2. Font-style is used to make a font itallic or oblique.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="font-style: italic;">
+                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+            </p>        
+        </body>
+        </html>
+        ```  
+    3. Font-varient is used to create small capital effect.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="font-variant: small-caps;">
+                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+            </p>
+
+        </body>
+        </html>
+        ```  
+    4. Font-weight is used to increase or decrease how bold or light a font appears.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="font-weight: bold;">
+                This font is bold.
+            </p>   
+            <p style="font-weight: bolder;">
+                This font is bolder.
+            </p>        
+            <p style="font-weight: 500;">
+                This font is bold.
+            </p>     
+        </body>
+        </html>
+        ```  
+    5. Font-size is used to increase or decrease the size of the font.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="font-size: 20px;">
+                This font size is 20 pixels.
+            </p>
+            <p style="font-size: small;">
+                This font size is small.
+            </p>        
+            <p style="font-size: large;">
+                This font size is large.
+            </p>        
+            <p style="font-size-adjust: 0.61;">
+                This text is using a font-size-adjust value.
+            </p>    
+            <p style="font-stretch: ultra-expanded;">
+                This text is using a font-size-adjust value.
+            </p>     
+        </body>
+        </html>
+        ```  
+    6. Font is used as short hand to specify a number of other font properties.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="font: italic small-caps 15px gerogia;">
+                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+            </p>        
+        </body>
+        </html>
+        ```  
+### CSS Text
+* Text and their properties 
+    1. Color is used set the color of the text.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="color: red;">
+                This text color will be red.
+            </p>        
+        </body>
+        </html>
+        ```
+    2. Direction is used to set the text direction.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="direction: ltr;">
+                This text will be rendered left to right.
+            </p>        
+        </body>
+        </html>
+        ```
+    3. Letter spacing is used to add or subtract spaces between the letters that make up a word.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="letter-spacing: 5px;">
+                This text is having space between letters.
+            </p>        
+        </body>
+        </html>
+        ```
+    4. Word spacing is used to add add or subtract spaces between the words of sentence.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="word-spacing: 5px;">
+                This text is having space between words.
+            </p>        
+        </body>
+        </html>
+        ```
+    5. Text indent is used to indent the text of a paragraph.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="text-indent: 1cm;">
+                This text will have first line indented by 1 cm and this line will remain at its actual position this is done by CSS text-indent property.
+            </p>        
+        </body>
+        </html>
+        ```
+    6. Text align is used align text of document.
+        + Example :
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="text-align: right;">
+                This text will be right.
+            </p>
+            <p style="text-align: center;">
+                This text will be center.
+            </p>        
+            <p style="text-align: left;">
+                This text will be left.
+            </p>                
+        </body>
+        </html>
+        ```
+    7. Text decoration is used to underline, overline, and strikethrough text.
+        ```html
+        <!DOCTYPE html>
+        <html>
+        <head>
+        </head>
+        <body>
+            <p style="text-decoration: underline;">
+                This text will be underlined.
+            </p>
+            <p style="text-decoration: line-through;">
+                This text will be striked through.
+            </p>        
+            <p style="text-decoration: overline;">
+                This text will have a over line.
+            </p>
+            <p style="text-decoration: blink;">
+                This text will have blinking effect.
+            </p>                
+        </body>
+        </html>
+        ```
+    8. Text transform is used to capitalize text or convert text to uppercase or lower case.
+    9. Whitespace is used to control the flow and formatting of text.
+    10. Text shadow is used to set text shadow around a text. 
