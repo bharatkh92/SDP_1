@@ -1597,4 +1597,7 @@ Example :
 * **outset**  - Specifies a 3D outset border. The effect depends on the border-color value  
 * **initial** - Sets this property to its default value. 
 * **inherit** - Inherits this property from its parent element. 
-
+* **border-bootom-style** changes the style of bottom border.
+* **border-top-style** changes the style of top border.
+* **border-left-style** changes the style of left border.
+* **border-right-style** changes the style of right border.
