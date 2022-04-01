@@ -1151,78 +1151,77 @@ __
 
 ### CSS Font
 * Css font and thier properties can be defined .
-    1. Font-family is used to change the face of a font.
-        + Example : 
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="font-family:georgia,garamond,serif;">
-                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
-            </p>        
-        </body>
-        </html>
-        ```
+1. Font-family is used to change the face of a font.
+    + Example : 
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="font-family:georgia,garamond,serif;">
+            This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+        </p>        
+    </body>
+    </html>
+    ```
 
-    2. Font-style is used to make a font itallic or oblique.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="font-style: italic;">
-                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
-            </p>        
-        </body>
-        </html>
-        ```  
-    3. Font-varient is used to create small capital effect.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="font-variant: small-caps;">
-                This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
-            </p>
-
-        </body>
-        </html>
-        ```  
-    4. Font-weight is used to increase or decrease how bold or light a font appears.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="font-weight: bold;">
-                This font is bold.
-            </p>   
-            <p style="font-weight: bolder;">
-                This font is bolder.
-            </p>        
-            <p style="font-weight: 500;">
-                This font is bold.
-            </p>     
-        </body>
-        </html>
-        ```  
-    5. Font-size is used to increase or decrease the size of the font.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
+2. Font-style is used to make a font itallic or oblique.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="font-style: italic;">
+            This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+        </p>        
+    </body>
+    </html>
+    ```  
+3. Font-varient is used to create small capital effect.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="font-variant: small-caps;">
+            This text is rendered in either georgia, garamond, or the default serif font depending on which font you have at your system.
+        </p>
+    </body>
+    </html>
+    ```  
+4. Font-weight is used to increase or decrease how bold or light a font appears.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="font-weight: bold;">
+            This font is bold.
+        </p>   
+        <p style="font-weight: bolder;">
+            This font is bolder.
+        </p>        
+        <p style="font-weight: 500;">
+            This font is bold.
+        </p>     
+    </body>
+    </html>
+    ```  
+5. Font-size is used to increase or decrease the size of the font.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
             <p style="font-size: 20px;">
                 This font size is 20 pixels.
             </p>
@@ -1601,3 +1600,152 @@ Example :
 * **border-top-style** changes the style of top border.
 * **border-left-style** changes the style of left border.
 * **border-right-style** changes the style of right border.
+
+
+### CSS Lists
+* They are very helpfull in conveying a set of either a number or bullet points.
+1. **List-style-type** which allows you to control the shape or appearance of the marker.
+2. The **List-style-position** specifies whether a long point that wraps to a second line should align with the first line or start underneath the start of the marker.
+3. **List-style-image** specifies an image for the marker rather than a bullet point or a number.
+4. **List-style** serves as shorthand for the preceding properties.
+5. **Marker-offset** specifies the distance between marker and the text in the list.
+
+|Sr.No | Value & Description |  |
+|-------| ------------------------| -----------------|
+|1 |none| |
+| |NA| |
+|2|disc(default)| |
+| |A filled-in circle | |
+|3|circle | |
+| |(an empty circle)| |
+|4|square | |
+| |(a filled in square)| |
+
+| Value | Description | Example |
+|-------|-------------|---------|
+| decimal | Number | 1,2,3,4,5|
+| decimal-leading-zero | 0 before the number | 01,02,03,04,05 |
+| lower-alpha | Lowecase alphanumeric characters | a,b,c,d,e |
+| upper-alpha | Uppercase alphanumeric characters | A,B,C,D,E |
+| lower-roman | Lowercase Roman numerals | I, II, III, IV, V |
+| upper-roman | Uppercase roman numerals | i, ii, iii, iv , v |
+| lower-greek | The marker is lower greek | alpha, beta, gamma |
+| lower-latin | The marker is lower latin | a,b,c,d,e....|
+| upper-latin | The marker is upper-latin | A,B,C,D,E...|
+| hebrew | The marker is traditional American numbering | | 
+| armenian | The marker is traditional Armainian | |
+| geogian | The marker is traditional Gerogian | |
+| cjk-idographic | The marker is plain ideographic number | |
+| hiragana | The marker is hiragana | a,i,u,e,o,ka,ki |
+| katakana | The marker is katakana | A,I,U,E,O,KA,KI |
+| hiragana-iroha | The marker is hiragana iroha | i,ro,ha,ni,ho,he,to|
+| katakana-iroha | The marker is katakona iroha | I,RO,HA,NI,HO,HE,TO |
+
+---
+### write a program displaying list of items html, css, javascript in circle and square (unordered) decimal, lower alpha and lower roman(ordered).
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LIST</title>
+</head>
+<body>
+    <ul style="list-style: circle;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <ul style="list-style: square;">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+    <ol style="list-style: decimal;">    
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <ol style="list-style: lower-alpha;">    
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <ol style="list-style: lower-roman;">    
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ol>
+    <ul style="list-style-image: url('https://picsum.photos/id/237/100/50');">    
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+
+</body>
+</html>
+```
+
+### Marker-offset
+* **marker-offset** allows you to specify the distance between the marker and text relating to that marker.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LIST</title>
+</head>
+<body>
+    <ul style="list-style: circle; marker-offset: 4em">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+    </ul>
+</body>
+</html>
+```
+
+### CSS Padding
+* The padding property allows you to specify how much space should appear between the content of an element and it's borders.
+* The value of this attribute should be either a length a percentage or the word inherit.
+* Some of the properties of padding are 
+1. padding-bottom specifies the bottom padding of an element.
+2. padding-top specifies the top padding of an element.
+3. padding-left specifies the left padding of an element.
+4. padding-right specifies the right padding of an element.
+
+* Example :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Padding</title>
+</head>
+<body>
+    <p style="padding-bottom: 20px; border: 1px solid black;">
+        This is a paragraph and padding is specified for bottom.
+    </p>
+    <p style="padding-top: 20px; border: 1px solid black;">
+        This is a paragraph and padding is specified for bottom.
+    </p>
+    <p style="padding-left: 20px; border: 1px solid black;">
+        This is a paragraph and padding is specified for bottom.
+    </p>
+    <p style="padding-right: 20px; border: 1px solid black;">
+        This is a paragraph and padding is specified for bottom.
+    </p>
+</body>
+</html>
+```
+
+### CSS Panel
+* The panel class adds 16 pixels top and bottom margin and 16 pixels left and right padding to any html element.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="w3-panel w3-red">
+        <p>I am Panel</p>
+    </div>
+</body>
+</html>
