@@ -1415,3 +1415,82 @@ __
         </body>
         </html>
         ```
+
+### CSS Links
+1. The **:link** signifies unvisited hyperlinks.
+2. The **:visited** signifies visited hyperlinks.
+3. The **:hover** signifies an element that currently has the user mouse pointer hovering over it.
+4. The **:active** signifies an elment on which the user is currently clicking.
+Examle : 
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <style type="text/css">
+        a:link {color:#000000};
+        a:visited{color:#006600};
+        a:hover{color:#efcc00};
+        a:active{color:#cdfhcc};
+    </style>
+    </head>
+    <body>
+        <a href="http://www.google.com">Link</a>
+        <a href="http://www.facebook.com">Link</a>
+        <a href="http://www.instagram.com">Link</a>
+        <a href="http://www.yahoo.com">Link</a>
+    </body>
+    </html>
+    ```
+
+### CSS Tables
+* The **border-collapse** specifies whether the browser should control the appearance of the adjacent borsers that touch each other or whether each cell should maintain its style.
+* The **border-spacing** specifies the width that should appear between table cells.
+* The **caption-side** captions are presented in the `<caption>` element. By default, these are rendred above the table in the doucment. You use the caption-side property to control the placement of the table caption.
+* The **empty-cells** specifies whether the border should be shown if a cell is empty.
+* The **table-layout** allows the browser to speed up layout of the table by using the first width properties it comes across for the rest of a column rather than having to load the whole table before rendering it.
+* Example :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        table.one {border-collapse: collapse;}
+        table.two {border-collapse: separate;}
+
+        td.a {
+            border-style: dotted;
+            border-width: 3px;
+            border-color: #000000;
+            padding: 10px;
+        }
+        td.b {
+            border-style: solid;
+            border-width: 3px;
+            border-color: #333;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="one">
+        <caption>Collapse Border Example</caption>
+        <tr>
+            <td class="a">Cell A Collapse Example</td>
+        </tr>
+        <tr>
+            <td class="b">Cell B Collapse Example</td>
+        </tr>
+    </table>
+    <br/>
+    <table class="two">
+        <caption>Separate Border Example</caption>
+        <tr>
+            <td class="a">Cell A Separate Example</td>
+        </tr>
+        <tr>
+            <td class="b">Cell B Separate Example</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
