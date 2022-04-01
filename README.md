@@ -1257,171 +1257,171 @@ __
         ```  
 ### CSS Text
 * Text and their properties 
-    1. Color is used set the color of the text.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="color: red;">
-                This text color will be red.
-            </p>        
-        </body>
-        </html>
+1. Color is used set the color of the text.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="color: red;">
+            This text color will be red.
+        </p>        
+    </body>
+    </html>
+    ```
+2. Direction is used to set the text direction.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="direction: ltr;">
+            This text will be rendered left to right.
+        </p>        
+    </body>
+    </html>
+    ```
+3. Letter spacing is used to add or subtract spaces between the letters that make up a word.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="letter-spacing: 5px;">
+            This text is having space between letters.
+        </p>        
+    </body>
+    </html>
+    ```
+4. Word spacing is used to add add or subtract spaces between the words of sentence.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="word-spacing: 5px;">
+            This text is having space between words.
+        </p>        
+    </body>
+    </html>
+    ```
+5. Text indent is used to indent the text of a paragraph.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="text-indent: 1cm;">
+            This text will have first line indented by 1 cm and this line will remain at its actual position this is done by CSS text-indent property.
+        </p>        
+    </body>
+    </html>
+    ```
+6. Text align is used align text of document.
+    + Example :
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="text-align: right;">
+            This text will be right.
+        </p>
+        <p style="text-align: center;">
+            This text will be center.
+        </p>        
+        <p style="text-align: left;">
+            This text will be left.
+        </p>                
+    </body>
+    </html>
         ```
-    2. Direction is used to set the text direction.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="direction: ltr;">
-                This text will be rendered left to right.
-            </p>        
-        </body>
-        </html>
-        ```
-    3. Letter spacing is used to add or subtract spaces between the letters that make up a word.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="letter-spacing: 5px;">
-                This text is having space between letters.
-            </p>        
-        </body>
-        </html>
-        ```
-    4. Word spacing is used to add add or subtract spaces between the words of sentence.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="word-spacing: 5px;">
-                This text is having space between words.
-            </p>        
-        </body>
-        </html>
-        ```
-    5. Text indent is used to indent the text of a paragraph.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="text-indent: 1cm;">
-                This text will have first line indented by 1 cm and this line will remain at its actual position this is done by CSS text-indent property.
-            </p>        
-        </body>
-        </html>
-        ```
-    6. Text align is used align text of document.
-        + Example :
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="text-align: right;">
-                This text will be right.
-            </p>
-            <p style="text-align: center;">
-                This text will be center.
-            </p>        
-            <p style="text-align: left;">
-                This text will be left.
-            </p>                
-        </body>
-        </html>
-        ```
-    7. Text decoration is used to underline, overline, and strikethrough text.
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="text-decoration: underline;">
-                This text will be underlined.
-            </p>
-            <p style="text-decoration: line-through;">
-                This text will be striked through.
-            </p>        
-            <p style="text-decoration: overline;">
-                This text will have a over line.
-            </p>
-            <p style="text-decoration: blink;">
+7. Text decoration is used to underline, overline, and strikethrough text.
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="text-decoration: underline;">
+            This text will be underlined.
+        </p>
+        <p style="text-decoration: line-through;">
+            This text will be striked through.
+        </p>        
+        <p style="text-decoration: overline;">
+            This text will have a over line.
+        </p>
+        <p style="text-decoration: blink;">
                 This text will have blinking effect.
-            </p>                
-        </body>
-        </html>
-        ```
-    8. Text transform is used to capitalize text or convert text to uppercase or lower case.
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="text-transform: capitalize;">
-                This text will be capitalized.
-            </p>
-            <p style="text-transform: uppercase;">
-                This text will be uppercase.
-            </p>        
-            <p style="text-transform: lowercase;">
-                This text will be lowercase.
-            </p>                
-        </body>
-        </html>
-        ```
-    9. Whitespace is used to control the flow and formatting of text.
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="white-space: pre;">
-                This text has a line break and the white-space pre setting 
-                tells the browser to honor it just like the HTML pre tag.
-            </p>
-        </body>
-        </html>
-        ```
-    10. Text shadow is used to set text shadow around a text. 
-        ```html
-        <!DOCTYPE html>
-        <html>
-        <head>
-        </head>
-        <body>
-            <p style="text-shadow: 4px 4px 8px blue;">
-                If your browser supports the CSS text-shadow property, this text will have a blue shadow.
-            </p>
-        </body>
-        </html>
-        ```
+        </p>                
+    </body>
+    </html>
+    ```
+8. Text transform is used to capitalize text or convert text to uppercase or lower case.
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="text-transform: capitalize;">
+            This text will be capitalized.
+        </p>
+        <p style="text-transform: uppercase;">
+            This text will be uppercase.
+        </p>        
+        <p style="text-transform: lowercase;">
+            This text will be lowercase.
+        </p>                
+    </body>
+    </html>
+    ```
+9. Whitespace is used to control the flow and formatting of text.
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="white-space: pre;">
+            This text has a line break and the white-space pre setting 
+            tells the browser to honor it just like the HTML pre tag.
+        </p>
+    </body>
+    </html>
+    ```
+10. Text shadow is used to set text shadow around a text. 
+    ```html
+    <!DOCTYPE html>
+    <html>
+    <head>
+    </head>
+    <body>
+        <p style="text-shadow: 4px 4px 8px blue;">
+            If your browser supports the CSS text-shadow property, this text will have a blue shadow.
+        </p>
+    </body>
+    </html>
+    ```
 
 ### CSS Links
 1. The **:link** signifies unvisited hyperlinks.
 2. The **:visited** signifies visited hyperlinks.
 3. The **:hover** signifies an element that currently has the user mouse pointer hovering over it.
 4. The **:active** signifies an elment on which the user is currently clicking.
-Examle : 
+Example : 
     ```html
     <!DOCTYPE html>
     <html>
@@ -1448,7 +1448,7 @@ Examle :
 * The **caption-side** captions are presented in the `<caption>` element. By default, these are rendred above the table in the doucment. You use the caption-side property to control the placement of the table caption.
 * The **empty-cells** specifies whether the border should be shown if a cell is empty.
 * The **table-layout** allows the browser to speed up layout of the table by using the first width properties it comes across for the rest of a column rather than having to load the whole table before rendering it.
-* Example :
+* border-collapse Example :
 ```html
 <!DOCTYPE html>
 <html>
@@ -1494,3 +1494,107 @@ Examle :
 </body>
 </html>
 ```
+* border-spacing Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        table.one {
+            border-collapse: separate;
+            width: 400px;
+            border-spacing: 10px;
+        }
+        table.two {
+            border-collapse: separate;
+            width: 400px;
+            border-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="one" border="1">
+        <caption>Collapse Border Example border-spacing</caption>
+        <tr>
+            <td>Cell A Collapse Example</td>
+        </tr>
+        <tr>
+            <td>Cell B Collapse Example</td>
+        </tr>
+    </table>
+    <br/>
+    <table class="two" border="1">
+        <caption>Separate Border Example border-spacing</caption>
+        <tr>
+            <td>Cell A Separate Example</td>
+        </tr>
+        <tr>
+            <td>Cell B Separate Example</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
+
+* caption-side Example :
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        table.empty {
+            border-collapse: separate;
+            width: 400px;
+            border-spacing: 10px;
+        }
+        table.two {
+            border-collapse: separate;
+            width: 400px;
+            border-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table class="one" border="1">
+        <caption>Collapse Border Example border-spacing</caption>
+        <tr>
+            <td>Cell A Collapse Example</td>
+        </tr>
+        <tr>
+            <td>Cell B Collapse Example</td>
+        </tr>
+    </table>
+    <br/>
+    <table class="two" border="1">
+        <caption>Separate Border Example border-spacing</caption>
+        <tr>
+            <td>Cell A Separate Example</td>
+        </tr>
+        <tr>
+            <td>Cell B Separate Example</td>
+        </tr>
+    </table>
+</body>
+</html>
+```
+
+### CSS Border
+* The border properties allow you to specify how the border of the box representing an element should look.
+* There are three properties of a border you can change -
+    + The **border-color** specifies the color of a border.
+    + The **border-style** specifies wether a border should be solid, dashed line, double line, or one of the other possible values.
+    + The **border-width** specifies the width of the border.
+* **Value**   - Description Demo
+* **none**    - Default value. Specifies no border  
+* **hidden**  - The same as "none", except in border conflict resolution for table elements 
+* **dotted**  - Specifies a dotted border   
+* **dashed**  - Specifies a dashed border   
+* **solid**   - Specifies a solid border    
+* **double**  - Specifies a double border   
+* **groove**  - Specifies a 3D grooved border. The effect depends on the border-color value 
+* **ridge**   - Specifies a 3D ridged border. The effect depends on the border-color value  
+* **inset**   - Specifies a 3D inset border. The effect depends on the border-color value   
+* **outset**  - Specifies a 3D outset border. The effect depends on the border-color value  
+* **initial** - Sets this property to its default value. 
+* **inherit** - Inherits this property from its parent element. 
+
