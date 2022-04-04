@@ -1920,3 +1920,113 @@ Example :
 </body>
 </html>
 ```
+
+* Figure Tag : figure tag element, to markup a photo in a doc
+* figure caption :-element define caption for the photo
+* An html uses html form is used to collect user input. The user input is most often sent to a server for processing.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <br>
+    <form action="action_page.php">
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="fname" value="Johny">
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="lname" id="lname" value="sins">
+
+    </form>
+</body>
+</html>
+```
+
+* Action tag : The action attribute specifies where to send the form when a form is submitted.
+* Accept Charset : specifies the character encoding that are to be used for the form submission.
+* Auto complete : specifies wether a form should have autocomplete on or off.
+* Method : specifies the http method to use, when sending form data.
+* Name : specifies the name of the form.
+* Rel : specifies the relationship between the link resource and current document.
+* Target : spcifies where to display the response that is received after submitting the form.
+* Fieldset : It used to group related element in a form, it draws a box around the related element.
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <style type="text/css">
+        filedset{
+            background-color: red;
+        }
+        legend{
+            background-color: grey;
+            color: white;
+            padding: 5px 10px;
+        }
+        input{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The fieldset element</h1>
+
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personalia:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>
+```
+
+### Forms Input Types
+1. Button - This defines a button on your html page
+* Examples : `<input type="button" onclick="alert(hello world!)" value="click me">`
+2. Password - This defines a password field and the input is not shown as text.
+* Examples : `<input type="password" id="pwd" name="pwd">`
+3. Submit - This defines a button for submitting form data, to a form handler.
+* Examples : `<input type="submit" value="submit">`
+4. Reset - This will reset all the values to thier default values.
+* Examples : `<input type="reset">`
+5. Radio - This Allows user to select only one of a limited number of choices. 
+* Examples : `<input type="radio" name="fav language" value="html">`
+             `<input type="css" name="fav language" value="CSS">`
+6. Checkbox - Lets the user to select 0 or more options of a limited number of choices.
+
+
+### HTML Graphics 
+#### Canvas
+* canvas element is used to draw graphic on a webpage. The graphic to the left with canvas tag it shows 4 elements.
+    1. Gradient Rectangle
+    2. Mulitcolor Rectangle
+    3. Multicolor Text
+
+* The canvas element is only a container for graphics. You must use several methods for drawings paths, boxes, circles, text and adding images.
+* Example : 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <canvas id="MyCanvas" width="200" height="100" style="border: solid red;">Your browser doesn't exist</canvas>
+</body>
+</html>
+```
