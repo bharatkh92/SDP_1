@@ -1749,3 +1749,172 @@ Example :
     </div>
 </body>
 </html>
+```
+
+
+### CSS Box Model
+* The css box model is essentially a box that wraps around every html element. It consists of margins, borders, padding and actuall content the image below illustrates the box model.
+* **Content** The content of the box where the images and text appear.
+* **Padding** Clears an area around the content, the padding is transparent.
+* **Border** that goes around the padding and content.
+* **Margin** clears an area outside the border.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div {
+        background-color: lightgrey;
+        width: 300px;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+    } 
+    </style>
+</head>
+<body>
+    <h2>Demonstrating the Box Model</h2>
+    <p>The CSS boc model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content</p>
+    <div>This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border.</div>
+</body>
+</html>
+```
+
+### CSS Outline
+* An outline is a line that is drawn around element outside the border to make the elements standou.
+* Outline styles 
+    + dotted - defines a dotted outline.
+    + dash - defines a dash outline.
+    + solid - defines a solid outline.
+    + double - defines a double outline.
+    + groove, ridge, inset, outset - defines 3d outline.
+    + none - defines no outline.
+    + hidden - a hidden outline.
+* Outline width - This property specifies the width of the outline and can have one of the following values 
+    Thin(1px), medium(3px), Thick(5px) and so on..., a specific size in px, pt, cm, etc...
+* Outline offset - This property adds spaces between outline and the edge of an element
+
+* CSS Text - pre-defined background color and text color of the content 
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap" rel="stylesheet">    <style>
+    body{
+        background-color: #cc99dd;
+        color: white;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px black;
+        font-size: 30px;
+    }
+    div{
+        outline-color: #ccddcc;
+        outline-width: 10px;
+        margin: 5% 3%;
+    }
+
+    div.dotted{
+        outline-style: dotted;
+        letter-spacing: 5px;
+    } 
+    div.dashed{
+        outline-style: dashed;
+    }
+    div.solid{
+        outline-style: solid;
+    } 
+    div.double{
+        outline-style: double;
+        text-align: center;
+    } 
+    div.groove{
+        outline-style: groove;
+        text-decoration:  underline;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+}
+    div.ridge{
+        outline-style: ridge;
+    } 
+    div.inset{
+        outline-style: inset;
+        text-transform: uppercase;
+    }  
+    div.outset{
+        outline-style: outset;
+        text-indent: 50px;
+    } 
+
+    </style>
+</head>
+<body>
+    <div class="dotted">A dotted outline</div>
+    <div class="dashed">A dashed outline</div>
+    <div class="solid">A solid outline</div>
+    <div class="double">A double outline</div>
+    <div class="groove">A groove outline</div>
+    <div class="ridge">A ridge outline</div>
+    <div class="inset">A inset outline</div>
+    <div class="outset">A outset outline</div>
+
+</body>
+</html>
+```
+### [Google Fonts](https://fonts.google.com/)
+* If you do not want to use any of the standard fonts in html you can use google fonts.
+* Google fonts are free to use and have more than thousand fonts to choose from.
+
+### CSS Icon
+* An icon can be easily to your html page by using an icon library.
+* To add icons - The simplest way to add icons to your html page with icon library.
+* To add icons to hmtl add the name of the specific icon class to any inline html element all the icons in the icon library which are scalable, vectored that can customized with css
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://kit.fontawsome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <i class="fas fa-cloud"></i>
+</body>
+</html>
+
+```
+* write a program to add a link google.com, facebook.com, gmail.com, instagram.com
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        a:link {
+            color: powderblue;
+        }
+        a:active {
+            color: red;
+        }
+        a:hover {
+            color: yellow;
+        }
+        a:visited {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com">Google</a>
+    <hr>
+    <a href="https://www.facebook.com">Facebook</a>
+    <hr>
+    <a href="https://www.gmail.com">Gmail</a>
+    <hr>
+    <a href="https://www.instagram.com">Instagram</a>
+</body>
+</html>
+```
