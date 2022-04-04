@@ -1750,6 +1750,8 @@ Example :
 </body>
 </html>
 ```
+---
+# DAY 3
 
 
 ### CSS Box Model
