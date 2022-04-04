@@ -2026,7 +2026,29 @@ Example :
 <head>
 </head>
 <body>
-    <canvas id="MyCanvas" width="200" height="100" style="border: solid red;">Your browser doesn't exist</canvas>
+    <canvas id="MyCanvas" width="200" height="100" style="border: solid red;">Your browser doesn't support canvas</canvas>
+</body>
+</html>
+```
+
+* getElementById is a method to return element with a specified value, returns null is an element does not exist.
+* It us one of the most common method in html dom, it is used almost everytime you  want to read all headed html element.
+* Similarly we have other getElementBy(name, classname, tagname)
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <canvas id="MyCanvas" width="200" height="100" style="border: solid red;">Your browser doesn't support canvas</canvas>
+    <script type="text/javascript">
+        var c = document.getElementById('myCanvas');
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+    </script>
 </body>
 </html>
 ```
