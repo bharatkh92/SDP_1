@@ -2035,6 +2035,7 @@ Example :
 * It us one of the most common method in html dom, it is used almost everytime you  want to read all headed html element.
 * Similarly we have other getElementBy(name, classname, tagname)
 
+
 ```html
 <!DOCTYPE html>
 <html>
